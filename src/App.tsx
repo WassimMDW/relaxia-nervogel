@@ -16,7 +16,7 @@ function App() {
     <div className="page-shell" dir="rtl">
       <header className="topbar">
         <div className="container topbar-inner">
-          <div className="brand-block" aria-label="Relaxia logo">
+          <div className="brand-block" aria-label="شعار Relaxia">
             <img src={product.logo} alt={product.logoAlt} className="brand-logo" />
           </div>
           <span className="sponsored-badge">{articleCopy.sponsoredLabel}</span>
@@ -28,9 +28,9 @@ function App() {
           <div className="container hero-grid">
             <div className="hero-copy">
               <div className="eyebrow">{articleCopy.heroEyebrow}</div>
-              <h1>موش كل وجيعة في الظهر لازمك تتعايش معاها!</h1>
+              <h1>ليس من الضروري أن تستمر معاناة آلام الظهر!</h1>
               <p className="hero-subtitle">
-                القعدة الطويلة، الخدمة، والتنقّل ينجموا يخلّيو الراحة أصعب. اكتشف معلومات تنجّم تعاونك تفهم وجيعة ظهرك وتختار روتين عناية يناسبك.
+                قد تجعل الجلسة الطويلة والعمل والتنقل الراحة أكثر صعوبة. تعرّف على معلومات تساعدك على فهم آلام ظهرك واختيار روتين عناية يناسب احتياجاتك.
               </p>
               <div className="hero-meta">
                 <span>{articleCopy.readTime}</span>
@@ -39,7 +39,7 @@ function App() {
               </div>
             </div>
             <div className="hero-visual">
-              <img src={product.heroImage} alt="رجل تونسي يجلس ويضع يده على الظهر" className="hero-image" />
+              <img src={product.heroImage} alt="رسم توضيحي لألم الظهر والعمود الفقري" className="hero-image" />
             </div>
           </div>
         </section>
@@ -48,29 +48,29 @@ function App() {
           <article className="story-card">
             <section className="article-block">
               <span className="section-number">01</span>
-              <h2>كي تولّي حتى القعدة والراحة موش كيف قبل</h2>
+              <h2>عندما تصبح الجلسة والراحة أكثر صعوبة مما اعتدت عليه</h2>
               <p>
-                كل يوم، من الصباح إلى الليل، كثر من الناس ينقضّو في نفس الروتين: قعدة في المكتب، كثر التّلفون، خدمة، ثم العودة للمنزل واسترسال في نفس الوضعية. ونتيجة لهذا الروتين، يبدّل الجسم يبان عليه في الظهر، وخاصة في المنطقة السفلى. حتى تخلّص من الهدوء والراحة، ما عادش ممكن تندّم على كل حركة قليلة.
+                يتبع كثير من الأشخاص طوال يومهم روتيناً متقارباً: الجلوس في المكتب، استخدام الهاتف لفترات طويلة، العمل، ثم العودة إلى المنزل والاحتفاظ بالجلوس أو الوضعية نفسها. وقد تؤثر هذه العادات المتكررة على الظهر، وخاصة الجزء السفلي منه، حتى أثناء الراحة والحركة.
               </p>
               <p>
-                كاين من الناس يضطرّ ينهض ببطء، ويقلي: «موش عادي هكا». يلاحظوا أن الاستلقاء، الجلوس، أو الوقوف من غير حركة وقت طويل يخلّي الوخز يخرج من جديد. في بعض الأحيان، الوجع ما يتوقفش عند الظهر، بل يبان حتى في الساق، ويدخل في الروتين اليومي بطريقة مستفزة.
+                وقد يجد بعض الأشخاص صعوبة في النهوض بسرعة أو الشعور بالراحة الكافية. وقد يلاحظون أن الاستلقاء أو الجلوس أو الوقوف لفترات طويلة يعيد الإحساس بالوخز أو الانزعاج. وفي بعض الحالات، يمتد الإحساس من الظهر إلى الساق ويؤثر على الأنشطة اليومية.
               </p>
               <p>
-                هذا النوع من الوضعيات شائع، وموش لازم نعتبره عادي أو نستهين به. المهم هو التّفهم: إذا الراحة ما رجعتش، فالأمر يستحقّ وقفة، ولو بسيطة، لتقييم الروتين والبحث عن حلول مناسبة.
+                هذه الأعراض شائعة، ولا ينبغي تجاهلها أو اعتبارها أمراً عادياً دائماً. ومن المهم فهم الوضع والوصول إلى تقييم مناسب لروتينك اليومي والحلول الملائمة لحالتك.
               </p>
             </section>
 
             <section className="article-block article-block--split">
               <div>
                 <span className="section-number">02</span>
-                <h2>علاش وجيعة الظهر تنجّم تمتدّ للساق؟</h2>
+                <h2>لماذا قد تمتد آلام الظهر إلى الساق؟</h2>
               </div>
               <div className="explain-panel">
                 <p>
-                  وجيعة الظهر ماشي دايم نفس الشيء. عند بعض الناس، الإحساس بالانزعاج يبان مباشرة في الظهر، وعند آخرين يمكن أن يمتدّ نحو الساق. في بعض الحالات، هذا مرتبط باحتمال تحسّس أو تهيّج nerves أو ما يُعرف بـ«عرق النسا» أو irritation of the sciatic nerve في بعض الفهم العام.
+                  لا تتشابه آلام الظهر لدى جميع الأشخاص. فقد يظهر الانزعاج مباشرة في الظهر لدى بعض الأشخاص، وقد يمتد إلى الساق لدى آخرين. وفي بعض الحالات، يرتبط ذلك بتهيج العصب الوركي أو ما يُعرف شعبياً بعرق النسا.
                 </p>
                 <p>
-                  لكن لازم نذكر: الأعراض وحدها ما تسمحش بتأكيد التشخيص. وقد تكون الأسباب مختلفة بين الوضعية، التوتر، النشاط البدني، أو غيرها. إذا الوخز مستمرّ، يزداد، أو يصاحبه علامات مثل ضعف في القدم، حرارة، أو صعوبة في الحركة، من الأحسن مراجعة مختصّ صحي لتقييم مناسب.
+                  يجب التنبيه إلى أن الأعراض وحدها لا تسمح بتأكيد التشخيص. وقد تختلف الأسباب تبعاً للوضعية أو التوتر أو النشاط البدني وغير ذلك. إذا استمر الوخز أو ازداد، أو صاحبه ضعف في القدم أو حرقان أو فقدان حسّ أو صعوبة في الحركة، فمن الأفضل مراجعة مختصّ صحي لتقييم الحالة.
                 </p>
               </div>
               <img src={product.nerveIllustration} alt="توضيح مبسط لمسار العصب" className="nerve-illustration" />
@@ -78,7 +78,7 @@ function App() {
 
             <section className="article-block">
               <span className="section-number">03</span>
-              <h2>كيفاش تختار روتين عناية يناسبك؟</h2>
+              <h2>كيف تختار روتين عناية يناسبك؟</h2>
               <div className="care-grid">
                 <div className="care-card">
                   <h3>1. استراحة قصيرة</h3>
@@ -94,7 +94,7 @@ function App() {
                 </div>
               </div>
               <p>
-                أي روتين عناية ينجّم يتعدّى عن طريق القعدة والراحة؛ وقد يضمّ استشارة قابلة للتطبيق مع مختصّ أو نصائح مناسبة حسب الحالة. بعض الناس يختارون منتجات موضعية في إطار روتين شخصي لتخفيف الإحساس المحلي في المنطقة المعنية، مع مراعاة التعليمات والقواعد العامة للمنتج.
+                قد يشمل روتين العناية فترات راحة قصيرة وتغيير الوضعية والحركة اللطيفة، وقد يستفيد الفرد أيضاً من النصائح المناسبة لحالته أو استشارة مختصّ. ويختار بعض الأشخاص منتجات موضعية ضمن روتينهم الشخصي لتخفيف الإحساس المحلي في المنطقة المعنية، مع مراعاة تعليمات المنتج والضوابط العامة للاستخدام.
               </p>
             </section>
           </article>
@@ -102,7 +102,7 @@ function App() {
           <section id="product-section" className="product-reveal">
             <div className="section-header">
               <span className="section-number">04</span>
-              <h2>تعرّف على Relaxia NervoGel</h2>
+              <h2>تعرف على Relaxia NervoGel</h2>
             </div>
             <div className="product-layout">
               <div className="product-image-panel">
@@ -163,7 +163,7 @@ function App() {
           <section className="faq-block">
             <div className="section-header">
               <span className="section-number">06</span>
-              <h2>قبل ما تطلب، هاذم أهم التفاصيل</h2>
+              <h2>أهم التفاصيل قبل الطلب</h2>
             </div>
             <div className="faq-list">
               {product.faq.map((item, index) => {
@@ -175,11 +175,18 @@ function App() {
                       className="faq-question"
                       onClick={() => setIsFaqOpen(isOpen ? null : index)}
                       aria-expanded={isOpen}
+                      aria-controls={`faq-answer-${index}`}
                     >
                       <span>{item.question}</span>
                       <span className="faq-icon">{isOpen ? '−' : '+'}</span>
                     </button>
-                    <div className="faq-answer">
+                    <div
+                      className="faq-answer"
+                      id={`faq-answer-${index}`}
+                      role="region"
+                      aria-label={item.question}
+                      aria-hidden={!isOpen}
+                    >
                       <p>{item.answer}</p>
                     </div>
                   </div>
@@ -205,7 +212,7 @@ function App() {
                   <span>{orderConfig.cashOnDelivery}</span>
                 </div>
                 <button className="primary-cta large" type="button" onClick={() => scrollToSection('product-section')}>
-                  اطلب توا
+                  اطلب الآن
                 </button>
               </div>
             </div>
