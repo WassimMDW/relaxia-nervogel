@@ -2,7 +2,7 @@ export const product = {
   name: 'Relaxia NervoGel',
   logo: '/relaxia-logo.png',
   heroImage: '/hero-back-pain.webp',
-  productImage: '/product-packshot.svg',
+  productImage: '/relaxia-product.png',
   nerveIllustration: '/sciatica-illustration.png',
   logoAlt: 'شعار Relaxia الرسمي',
   shortDescription:
