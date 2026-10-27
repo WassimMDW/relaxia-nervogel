@@ -1,6 +1,6 @@
 export const product = {
   name: 'Relaxia NervoGel',
-  logo: '/relaxia-real-logo.svg',
+  logo: '/relaxia-logo.png',
   heroImage: '/hero-lifestyle.svg',
   productImage: '/product-packshot.svg',
   nerveIllustration: '/nerve-illustration.svg',
