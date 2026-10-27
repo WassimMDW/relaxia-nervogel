@@ -37,9 +37,6 @@ function App() {
                 <span className="dot" aria-hidden="true" />
                 <span>5 دقائق قراءة</span>
               </div>
-              <button className="primary-cta" type="button" onClick={() => scrollToSection('product-section')}>
-                اكتشف أكثر
-              </button>
             </div>
             <div className="hero-visual">
               <img src={product.heroImage} alt="رجل تونسي يجلس ويضع يده على الظهر" className="hero-image" />
