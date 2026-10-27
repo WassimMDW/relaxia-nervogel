@@ -1,0 +1,64 @@
+<svg width="640" height="760" viewBox="0 0 640 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tubeBody" x1="274" y1="86" x2="390" y2="712" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="0.4" stop-color="#EDF5FF"/>
+      <stop offset="1" stop-color="#E6F0F8"/>
+    </linearGradient>
+    <linearGradient id="tubeGlow" x1="210" y1="170" x2="420" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7F3FF"/>
+      <stop offset="0.5" stop-color="#BDE2F6"/>
+      <stop offset="1" stop-color="#D7E6F2"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="760" fill="#070707"/>
+  <g transform="translate(140 22)">
+    <ellipse cx="180" cy="685" rx="140" ry="24" fill="#0D0D0D"/>
+    <path d="M138 28H250C277.6 28 300 50.4 300 78V690C300 717.6 277.6 740 250 740H138C110.4 740 88 717.6 88 690V78C88 50.4 110.4 28 138 28Z" fill="url(#tubeBody)" stroke="#D9E3EC" stroke-width="6"/>
+    <path d="M134 48H254C268.4 48 280 59.6 280 74V102C280 129.6 257.6 152 230 152H146C118.4 152 96 129.6 96 102V74C96 59.6 107.6 48 122 48H134Z" fill="#F7FBFF"/>
+    <path d="M169 110C183.1 92.9 205.4 80 229.7 80C257.9 80 282.7 95.7 295.7 122.4L307.4 147.9C315.3 164.7 318.4 182.9 313.1 199.6L306.9 218.4C301.9 233.5 286 244 270.2 244H160.2C144.7 244 129.5 234.6 123.7 220.8L112.6 194.8C105.7 179.1 106.1 161 115.3 145.8L125.6 128C138.7 107.4 155.4 107 169 110Z" fill="#0D4D7A" fill-opacity="0.08"/>
+    <g opacity="0.9">
+      <path d="M114 192C157 160 110 123 128 116C153 107 165 128 192 154C219 180 224 171 256 178C271 182 275 195 300 205C272 221 287 230 250 236C211 242 185 246 155 231C128 217 97 205 114 192Z" fill="url(#tubeGlow)"/>
+      <path d="M130 244C170 221 174 309 180 366C183 400 167 442 151 476C139 465 119 451 105 435C86 412 80 387 92 356C103 328 108 293 130 244Z" fill="#B5DFF7" fill-opacity="0.55"/>
+      <path d="M253 238C277 244 306 266 326 293C351 326 357 359 340 387C325 411 286 432 253 439C227 445 195 443 175 425C160 411 155 394 166 373C179 349 184 330 196 305C209 278 224 246 253 238Z" fill="#C3E4F7" fill-opacity="0.4"/>
+    </g>
+    <g fill="#D8E7F5">
+      <circle cx="118" cy="238" r="4"/>
+      <circle cx="104" cy="282" r="3"/>
+      <circle cx="130" cy="302" r="4"/>
+      <circle cx="150" cy="334" r="3"/>
+      <circle cx="176" cy="372" r="4"/>
+      <circle cx="206" cy="404" r="3"/>
+      <circle cx="222" cy="438" r="4"/>
+      <circle cx="243" cy="468" r="3"/>
+      <circle cx="270" cy="510" r="4"/>
+      <circle cx="296" cy="554" r="3"/>
+    </g>
+    <g>
+      <path d="M200 490C208 510 219 527 233 542C251 562 272 570 289 569C306 568 319 560 327 548C334 536 338 524 339 510C340 496 336 482 326 470C316 457 301 449 283 444C264 439 242 440 222 447C208 453 196 466 200 490Z" fill="#C9E7F8" opacity="0.9"/>
+      <circle cx="256" cy="520" r="48" fill="#EDF8FF" opacity="0.8"/>
+    </g>
+    <path d="M170 142H278C282.4 142 286 145.6 286 150V172C286 176.4 282.4 180 278 180H170C165.6 180 162 176.4 162 172V150C162 145.6 165.6 142 170 142Z" fill="#F5FAFF"/>
+    <text x="180" y="170" text-anchor="middle" fill="#0B3D67" font-size="16" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="1">RELAXIA</text>
+    <text x="180" y="236" text-anchor="middle" fill="#0B3D67" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="800">NervoGel</text>
+    <text x="180" y="270" text-anchor="middle" fill="#5C7B9A" font-size="16" font-family="Segoe UI, Arial, sans-serif" font-weight="700">SCIATICA</text>
+    <text x="180" y="306" text-anchor="middle" fill="#0B3D67" font-size="11" font-family="Segoe UI, Arial, sans-serif" font-weight="600">Fast Cooling Gel</text>
+    <text x="180" y="324" text-anchor="middle" fill="#0B3D67" font-size="11" font-family="Segoe UI, Arial, sans-serif" font-weight="600">for Sciatic Nerve Comfort</text>
+    <g>
+      <path d="M111 355H248" stroke="#BDD6EC" stroke-width="4" stroke-linecap="round"/>
+      <path d="M111 374H236" stroke="#BDD6EC" stroke-width="4" stroke-linecap="round"/>
+      <path d="M111 392H255" stroke="#BDD6EC" stroke-width="4" stroke-linecap="round"/>
+      <path d="M111 410H230" stroke="#BDD6EC" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(118 448)">
+      <circle cx="26" cy="0" r="19" fill="#D7EAFB"/>
+      <circle cx="82" cy="0" r="19" fill="#D7EAFB"/>
+      <circle cx="138" cy="0" r="19" fill="#D7EAFB"/>
+      <circle cx="194" cy="0" r="19" fill="#D7EAFB"/>
+      <path d="M16 18A19 19 0 0 1 36 0" stroke="#0B3D67" stroke-width="3" stroke-linecap="round"/>
+      <path d="M72 18A19 19 0 0 1 92 0" stroke="#0B3D67" stroke-width="3" stroke-linecap="round"/>
+      <path d="M128 18A19 19 0 0 1 148 0" stroke="#0B3D67" stroke-width="3" stroke-linecap="round"/>
+      <path d="M184 18A19 19 0 0 1 204 0" stroke="#0B3D67" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

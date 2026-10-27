@@ -1,0 +1,13 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="520" rx="28" fill="#F8FBFF"/>
+  <path d="M156 79C216 61 260 111 291 159C327 214 345 245 390 252C431 258 459 236 491 194C528 147 567 113 620 120C647 123 672 134 695 155V408C669 437 633 455 590 460C548 465 514 455 487 432C448 401 418 345 367 335C321 326 289 351 248 405C214 452 175 476 130 475C103 474 77 463 55 438V196C77 163 115 101 156 79Z" fill="#E7F3FF"/>
+  <path d="M272 131C292 175 279 213 266 253C251 296 228 341 197 374" stroke="#6E9CC7" stroke-width="12" stroke-linecap="round"/>
+  <path d="M373 118C390 154 395 191 390 228C383 281 344 333 311 358" stroke="#6E9CC7" stroke-width="12" stroke-linecap="round"/>
+  <path d="M469 145C500 176 517 214 525 250C534 289 528 332 502 372" stroke="#6E9CC7" stroke-width="12" stroke-linecap="round"/>
+  <path d="M266 253C299 250 330 260 363 277C388 290 406 310 420 334C434 356 430 382 412 402" stroke="#0F6DA9" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <path d="M307 156C318 177 336 195 356 205C381 218 413 221 437 211C455 203 474 188 489 171" stroke="#0F6DA9" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <circle cx="267" cy="255" r="16" fill="#0F6DA9"/>
+  <circle cx="332" cy="291" r="15" fill="#0F6DA9"/>
+  <circle cx="414" cy="351" r="18" fill="#0F6DA9"/>
+  <text x="272" y="486" fill="#1D3F66" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">توضيح مبسّط لمسار العصب</text>
+</svg>

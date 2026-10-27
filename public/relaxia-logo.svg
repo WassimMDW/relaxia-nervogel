@@ -1,0 +1,10 @@
+<svg width="260" height="72" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="260" height="72" rx="18" fill="#F5FAFF"/>
+  <circle cx="34" cy="36" r="18" fill="#0F5EA8"/>
+  <path d="M25 35C28.5 31 32.5 29 36.5 29C39.5 29 42 29.8 43.8 31.2C42.6 25.7 38.9 22 34.4 22C28.8 22 24.2 27 24.2 33.1V35H25Z" fill="white"/>
+  <path d="M35.2 42.4C31.4 42.4 27.9 41 25.5 38.6C25.2 38.3 25.2 37.7 25.5 37.4C25.8 37.1 26.4 37.1 26.7 37.4C28.7 39.3 31.7 40.6 35 40.6C40.7 40.6 45.1 36.5 45.1 31.2V30H47.2V31.2C47.2 37.6 41.7 42.4 35.2 42.4Z" fill="white"/>
+  <path d="M25 35H47.2V36.3C47.2 42.3 42.2 46.8 35.5 46.8C28.9 46.8 24 42.2 24 36.2V35H25Z" fill="#D9F1FF" fill-opacity="0.5"/>
+  <path d="M49 21.5H77.8C80.4 21.5 82.2 23.3 82.2 25.9V47C82.2 49.6 80.4 51.4 77.8 51.4H49V21.5Z" fill="#EAF5FF"/>
+  <path d="M56 29.5H71.4V32.7H56V29.5ZM56 35.1H71.4V38.3H56V35.1ZM56 40.7H68.2V43.9H56V40.7Z" fill="#0F5EA8"/>
+  <text x="93" y="45" fill="#0F2D4B" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Relaxia</text>
+</svg>
