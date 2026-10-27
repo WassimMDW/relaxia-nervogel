@@ -211,7 +211,14 @@ function App() {
                   <span>التوصيل: {orderConfig.deliveryFee} TND</span>
                   <span>{orderConfig.cashOnDelivery}</span>
                 </div>
-                <a className="primary-cta large" href={product.checkoutUrl}>
+                <a
+                  className="primary-cta large"
+                  href={product.checkoutUrl}
+                  onClick={(event) => {
+                    event.preventDefault()
+                    window.location.assign(product.checkoutUrl)
+                  }}
+                >
                   اطلب الآن
                 </a>
               </div>
