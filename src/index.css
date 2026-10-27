@@ -192,6 +192,8 @@ select:focus-visible {
   border: none;
   border-radius: 14px;
   font-weight: 700;
+  text-align: center;
+  text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -200,6 +202,9 @@ select:focus-visible {
   color: white;
   padding: 16px 26px;
   font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 10px 24px rgba(8, 127, 140, 0.22);
 }
 

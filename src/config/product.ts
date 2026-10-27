@@ -4,6 +4,7 @@ export const product = {
   heroImage: '/hero-back-pain.webp',
   productImage: '/relaxia-product.png',
   nerveIllustration: '/sciatica-illustration.png',
+  checkoutUrl: 'https://relaxia.tn/product/relaxia-nervogel-sciatica-relief-jl-laany-blaasb-lwrky?utm_medium={{campaign.name}}&utm_campaign={{adset.name}}&utm_content={{ad.name}}&ad_id={{ad.id}}&adset_id={{adset.id}}&campaign_id={{campaign.id}}&placement={{placement}}&site_source_name={{site_source_name}}&cuid=mvqyeoow32gfmfaz8',
   logoAlt: 'شعار Relaxia الرسمي',
   shortDescription:
     'منتج موضعي يُستخدم كجزء من روتين العناية الشخصية اليومية، مع تركيز على الراحة المحلية في منطقة الظهر والساق عند الحاجة.',

@@ -211,9 +211,9 @@ function App() {
                   <span>التوصيل: {orderConfig.deliveryFee} TND</span>
                   <span>{orderConfig.cashOnDelivery}</span>
                 </div>
-                <button className="primary-cta large" type="button" onClick={() => scrollToSection('product-section')}>
+                <a className="primary-cta large" href={product.checkoutUrl}>
                   اطلب الآن
-                </button>
+                </a>
               </div>
             </div>
           </section>
