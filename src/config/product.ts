@@ -3,7 +3,7 @@ export const product = {
   logo: '/relaxia-logo.png',
   heroImage: '/hero-back-pain.webp',
   productImage: '/product-packshot.svg',
-  nerveIllustration: '/nerve-illustration.svg',
+  nerveIllustration: '/sciatica-illustration.png',
   logoAlt: 'شعار Relaxia الرسمي',
   shortDescription:
     'منتج موضعي يُستخدم كجزء من روتين العناية الشخصية اليومية، مع تركيز على الراحة المحلية في منطقة الظهر والساق عند الحاجة.',
