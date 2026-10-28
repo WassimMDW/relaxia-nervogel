@@ -10,7 +10,16 @@ VITE_META_PIXEL_ID=YOUR_PIXEL_ID
 
 For Vercel, add the same `VITE_META_PIXEL_ID` value under Project Settings > Environment Variables.
 
-The integration tracks `PageView`, a one-time `ViewContent` event when the product section becomes visible, and `InitiateCheckout` when the final CTA is clicked. The Pixel remains inactive when the variable is not configured.
+For server-side Conversion API tracking, also add these environment variables in Vercel:
+
+```env
+META_PIXEL_ID=1545764610552524
+META_CAPI_ACCESS_TOKEN=YOUR_SERVER_ACCESS_TOKEN
+```
+
+`META_CAPI_ACCESS_TOKEN` is server-only and must never be prefixed with `VITE_` or added to browser source files. The API route at `/api/meta-events` sends `PageView`, `ViewContent`, and `InitiateCheckout` events to Meta and uses matching event IDs to deduplicate browser and server events.
+
+The integration tracks `PageView`, a one-time `ViewContent` event when the product section becomes visible, and `InitiateCheckout` when the final CTA is clicked. The Pixel remains inactive when the browser variable is not configured.
 
 ## React + TypeScript + Vite
 
