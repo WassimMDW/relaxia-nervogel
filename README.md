@@ -1,6 +1,20 @@
-# React + TypeScript + Vite
+# Relaxia NervoGel advertorial
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Meta Pixel
+
+Create a `.env.local` file in the project root and set the Pixel ID from Meta Events Manager:
+
+```env
+VITE_META_PIXEL_ID=YOUR_PIXEL_ID
+```
+
+For Vercel, add the same `VITE_META_PIXEL_ID` value under Project Settings > Environment Variables.
+
+The integration tracks `PageView`, a one-time `ViewContent` event when the product section becomes visible, and `InitiateCheckout` when the final CTA is clicked. The Pixel remains inactive when the variable is not configured.
+
+## React + TypeScript + Vite
+
+This project uses React, TypeScript, and Vite for the Relaxia landing page.
 
 Currently, two official plugins are available:
 
