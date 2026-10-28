@@ -1,33 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import { articleCopy, orderConfig, product } from './config/product'
-import { initMetaPixel, trackMetaEvent } from './lib/metaPixel'
 
 function App() {
   const [isFaqOpen, setIsFaqOpen] = useState<number | null>(0)
-
-  useEffect(() => {
-    initMetaPixel()
-
-    const productSection = document.getElementById('product-section')
-    if (!productSection) return
-
-    let viewTracked = false
-    const observer = new IntersectionObserver((entries) => {
-      if (!viewTracked && entries[0]?.isIntersecting) {
-        viewTracked = true
-        trackMetaEvent('ViewContent', {
-          content_name: product.name,
-          content_type: 'product',
-          value: orderConfig.unitPrice,
-          currency: 'TND',
-        })
-      }
-    }, { threshold: 0.35 })
-
-    observer.observe(productSection)
-    return () => observer.disconnect()
-  }, [])
 
   const scrollToSection = (id: string) => {
     const target = document.getElementById(id)
@@ -240,11 +216,6 @@ function App() {
                   href={product.checkoutUrl}
                   onClick={(event) => {
                     event.preventDefault()
-                    trackMetaEvent('InitiateCheckout', {
-                      content_name: product.name,
-                      value: orderConfig.unitPrice,
-                      currency: 'TND',
-                    })
                     window.location.assign(product.checkoutUrl)
                   }}
                 >
